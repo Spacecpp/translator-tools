@@ -1,0 +1,4 @@
+New game = Neues Spiel
+Multiplayer = Mehrspieler
+Options = Optionen
+Exit = Ausfahrt

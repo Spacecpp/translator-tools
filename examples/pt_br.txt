@@ -1,0 +1,16 @@
+hello = ola
+world = mundo
+how = como
+are = esta
+you = voce
+word = palavra
+yellow = amarelo
+ball = bola
+this = esta
+is = e
+mine = minha
+this is a long string = esta e uma string longa
+New game = Novo jogo
+Multiplayer = Multijogador
+Options = Opcoes
+Exit = Sair
