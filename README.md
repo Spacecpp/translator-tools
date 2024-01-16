@@ -57,14 +57,17 @@ Once you have your first translation ready you will essentially make a copy of s
 This process can quickly become very laboring and dull, especially if you are doing all the work alone using automatic translations. 
 That's why there is this small program TranslationCreator.cpp.
 Just compile and run it. it offers some usefull automations:
-```
-1-Remove the values (translations) from a file
-2-Remove the keys
-3-Create a complete translation file based on a file composed just of the keys, and another composed of values.
-4-Fix (match) the case of values to the keys.
-```
+
+1-Remove the values (translations) from a file.  
+2-Remove the keys.  
+3-Create a complete translation file based on a file composed just of the keys, and another composed of values.  
+4-Fix (match) the case of values to the keys.  
 
 With these automations you can create a file with just the strings to be translated, copy paste it at google translator, and them quickly combine everything to a new file. 
 
 # Note
 When creating translations to non-latin alphabet languages make sure the .txt is saved in UTF-8 encoding.
+
+# Optional preprocessor directives:
+**DICTIONARY_MANAGER_DEBUG** - Enables debug messages. Warns when a key has been add more than once, or when a requested translation is missing.  
+**DICTIONARY_MANAGER_USE_ALLEGRO** - If your program uses the Allegro5 library set this to make all the file reading be done by its functions (required to read inside zip files through the physfs addon).  
